@@ -2,7 +2,7 @@
 
 This repository contains MATLAB scripts which extract outputs from the QUINT pipeline or GraphPad Prism statistics sheets, perform additional statistical calculations, and return re-formatted summary data for subsequent import to GraphPad Prism.
 
-The first MATLAB script quint_postprocessing_subdivisions.m processes raw QUINT outputs. The program collates technical replicate data (coronal sections from the same animal) in outputted rows 2-5, then furthermore collates experimental replicates (animals of the same genotype and DREADD condition) to re-format data per experimental condition and brain region for easy import to GraphPad Prism.
+The first MATLAB script, quint_postprocessing_subdivisions.m, processes raw QUINT outputs. The program collates technical replicate data (coronal sections from the same animal) in outputted rows 2-5, then furthermore collates experimental replicates (animals of the same genotype and DREADD condition) to re-format data per experimental condition and brain region for easy import to GraphPad Prism.
 
 Once data are copied to GraphPad Prism, statistics can be run and exported in a new folder for subsequent import to the second and third MATLAB script.
 
