@@ -1,4 +1,4 @@
-# 2023_DREADD_Interneurons
+# 2023_ImARef
 
 This repository contains MATLAB scripts which extract outputs from the QUINT pipeline or GraphPad Prism statistics sheets, perform additional statistical calculations, and return re-formatted summary data for subsequent import to GraphPad Prism.
 
